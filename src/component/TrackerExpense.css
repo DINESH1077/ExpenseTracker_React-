@@ -1,0 +1,79 @@
+body{
+     background-color: #66cdaa; 
+
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1,h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 10px;
+    animation: slideInLeft 1s ease-in-out;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+  }
+  
+  button {
+    background-color: rgb(46, 160, 30);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+  
+  button:hover {
+    background-color: #0a2895;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #000000f7;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #046c622e;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .total {
+    font-weight: bold;
+    text-align: right;
+    font-weight: 50px;
+  }
+  
